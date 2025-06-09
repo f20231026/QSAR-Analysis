@@ -30,7 +30,7 @@ QSAR analysis in Pharmacy and Medicinal Chemistry can be useful to:
   - **Binding to targets**
 - **Improve lead optimization** by performing QSAR analysis that does require costly and time-consuming wet-lab assays
 
-# In this studyIn this study, **TPSA** showed a stronger correlation (R² = 0.54) with biological activity compared to LogP (R² = 0.45), indicating **polar interactions** may play a more critical role in target binding for this series.
+### In this study , **TPSA** showed a stronger correlation (R² = 0.54) with biological activity compared to LogP (R² = 0.45), indicating **polar interactions** may play a more critical role in target binding for this series.
 
 
 
