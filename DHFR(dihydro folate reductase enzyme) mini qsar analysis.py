@@ -51,8 +51,8 @@ print(sri)
 x1=mahi
 x2=sri
 y=[-1.34,-1.732,-0.875,-0.857,-2,1.124 # here we take -log(ic50) values
-plt.scatter(x1,y,label='logp vs logic50')
-plt.scatter(x2,y,label='tpsa vs loic50 ')
+plt.scatter(x1,y,label='logp vs log_ic50')
+plt.scatter(x2,y,label='tpsa vs log_ic50 ')
 plt.title('logp vs ic50')
 plt.ylabel('ic50')
 plt.xlabel('logp')
