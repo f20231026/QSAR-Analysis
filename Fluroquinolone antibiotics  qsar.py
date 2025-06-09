@@ -44,8 +44,8 @@ print(sri)
 x1=mahi
 x2=sri
 y=[2.28,1.1,0.109,1]
-plt.scatter(x1,y,label='logp vs logic50')
-plt.scatter(x2,y,label='tpsa vs loic50 ')
+plt.scatter(x1,y,label='logp vs ic50')
+plt.scatter(x2,y,label='tpsa vs ic50 ')
 plt.title('logp vs ic50')
 plt.ylabel('ic50')
 plt.xlabel('logp')
