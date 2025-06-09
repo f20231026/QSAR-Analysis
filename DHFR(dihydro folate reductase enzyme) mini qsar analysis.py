@@ -9,7 +9,7 @@ from rdkit.Chem import Descriptors
 
 
 
-
+#These are the drugs available in market against DHFR
 inhibitors = [('Methotrexate','CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O')
 ,('Trimethoprim','COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N'),
 ('Aminopterin', 'C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=NC(=N3)N)N'),
