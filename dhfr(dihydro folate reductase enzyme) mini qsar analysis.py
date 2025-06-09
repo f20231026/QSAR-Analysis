@@ -9,7 +9,7 @@ from rdkit.Chem import Descriptors
 
 
 
-# Convert SMILES to molecule
+
 inhibitors = [('Methotrexate','CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O')
 ,('Trimethoprim','COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N'),
 ('Aminopterin', 'C1=CC(=CC=C1C(=O)N[C@@H](CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=NC(=N3)N)N'),
@@ -22,7 +22,7 @@ inhibitors = [('Methotrexate','CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O
          
 
 ]
-mahi=[]
+mahi=[] #mahi is the name of the list which contains logp values of our drugs 
 i=0         
 for name,smiles in inhibitors: 
   mol = Chem.MolFromSmiles(smiles)
@@ -35,7 +35,7 @@ for name,smiles in inhibitors:
 
 print(mahi)
 
-sri=[]
+sri=[] #sri is the name of the list which contains tpsa values
 i=0         
 for name,smiles in inhibitors: 
   mol = Chem.MolFromSmiles(smiles)
