@@ -6,7 +6,7 @@ from rdkit.Chem import Descriptors
 
 
 
-# Convert SMILES to molecule
+# drugs in market against DNA gyrase 
 inhibitors = [('norfloxacin', 'CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCNCC3)F)C(=O)O'),
 ('ciprofloxacin', 'C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O'),
 ('gatifloxacin', 'CC1CN(CCN1)C2=C(C=C3C(=C2OC)N(C=C(C3=O)C(=O)O)C4CC4)F'),
@@ -15,7 +15,7 @@ inhibitors = [('norfloxacin', 'CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCNCC3)F)C(=O)O'),
          
 
 ]
-mahi=[]
+mahi=[] # mahi is the name of the list which contains logp values of our drugs
 i=0         
 for name,smiles in inhibitors: 
   mol = Chem.MolFromSmiles(smiles)
@@ -28,7 +28,7 @@ for name,smiles in inhibitors:
 
 print(mahi)
 
-sri=[]
+sri=[] # sri is the name of the list which contains tpsa of our drugs 
 i=0         
 for name,smiles in inhibitors: 
   mol = Chem.MolFromSmiles(smiles)
